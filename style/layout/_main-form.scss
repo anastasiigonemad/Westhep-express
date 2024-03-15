@@ -2,6 +2,7 @@
   border-radius: 15px;
   background-color: $form;
   box-shadow: -1px 3px 7px -2px rgba(0, 0, 0, 0.6);
+  padding: 15px;
 
   &__title {
     padding-top: 20px;
@@ -46,7 +47,7 @@
         &::placeholder {
           color: lightgrey;
           text-align: center;
-          padding: 70px;
+          padding-top: 70px;
         }
       }
 
@@ -128,7 +129,7 @@
           &::placeholder {
             color: lightgrey;
             text-align: center;
-            padding: 70px;
+            padding-top: 70px;
           }
         }
 

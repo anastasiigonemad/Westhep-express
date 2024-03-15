@@ -107,7 +107,7 @@ header .header__links a {
     background-color: #e6302a;
     display: block;
     border-radius: 5px;
-    transition: 0.3s ease;
+    transition: 0.1s ease;
   }
   #bar1 {
     transform: translateY(-4px);
@@ -116,7 +116,7 @@ header .header__links a {
     transform: translateY(4px);
   }
   .nav {
-    transition: 0.3s ease;
+    transition: 0.1s ease;
     display: none;
   }
   .nav ul {
@@ -522,6 +522,7 @@ header .header__links a {
     justify-content: center;
     background-color: #e32f29;
     color: #ffffff;
+    text-align: center;
     border-radius: 50px;
   }
   .main-order__container-1 {
@@ -873,6 +874,7 @@ header .header__links a {
   border-radius: 15px;
   background-color: rgb(254, 226, 189);
   box-shadow: -1px 3px 7px -2px rgba(0, 0, 0, 0.6);
+  padding: 15px;
 }
 .main-form__title {
   padding-top: 20px;
@@ -918,12 +920,12 @@ header .header__links a {
 .main-form__container-inputs-text::-moz-placeholder {
   color: lightgrey;
   text-align: center;
-  padding: 70px;
+  padding-top: 70px;
 }
 .main-form__container-inputs-text::placeholder {
   color: lightgrey;
   text-align: center;
-  padding: 70px;
+  padding-top: 70px;
 }
 .main-form__container-inputs-btn {
   border: none;
@@ -996,12 +998,12 @@ header .header__links a {
   .main-form__container-inputs-text::-moz-placeholder {
     color: lightgrey;
     text-align: center;
-    padding: 70px;
+    padding-top: 70px;
   }
   .main-form__container-inputs-text::placeholder {
     color: lightgrey;
     text-align: center;
-    padding: 70px;
+    padding-top: 70px;
   }
   .main-form__container-inputs-btn {
     margin-bottom: 20px;
@@ -1139,6 +1141,7 @@ footer .footer__links a {
     height: 200px;
   }
   footer .footer__logo {
+    padding-left: 0;
     text-align: center;
     color: #e6302a;
     text-transform: uppercase;
