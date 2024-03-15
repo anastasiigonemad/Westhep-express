@@ -1,0 +1,120 @@
+.color {
+  color: $light-green-text;
+}
+.main-advantages {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: $main-background;
+
+  &__container {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    &-title {
+      text-align: center;
+      h3 {
+        text-transform: uppercase;
+      }
+    }
+    &-desk {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-top: 40px;
+      &-numbers {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        &-circle {
+          padding: 10px;
+          width: 28px;
+          text-align: center;
+          border: 2px solid $circle;
+          border-radius: 150px;
+          font-size: 1.275em;
+          font-family: "Inter-regular", sans-serif;
+        }
+        &-text {
+          font-family: "Inter-regular", sans-serif;
+          text-transform: uppercase;
+          text-align: center;
+          margin-top: 5px;
+        }
+        &-line {
+          text-align: center;
+        }
+      }
+      &-text {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 300px;
+        margin-top: -10px;
+        &1 {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .color {
+    color: $light-green-text;
+  }
+  .main-advantages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: $main-background;
+
+    &__container {
+      margin-top: 40px;
+      margin-bottom: 30px;
+      &-title {
+        text-align: center;
+        h3 {
+          text-transform: uppercase;
+        }
+      }
+      &-desk {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 40px;
+        &-numbers {
+          display: flex;
+          flex-direction: column;
+          margin-top: 15px;
+          &-circle {
+            padding: 10px;
+            width: 28px;
+            text-align: center;
+            border: 2px solid $circle;
+            border-radius: 150px;
+            font-size: 1.275em;
+            font-family: "Inter-regular", sans-serif;
+          }
+          &-text {
+            font-family: "Inter-regular", sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 5px;
+          }
+          &-line {
+            text-align: center;
+          }
+        }
+        &-text {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          width: 50%;
+          margin-top: -10px;
+          &1 {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}

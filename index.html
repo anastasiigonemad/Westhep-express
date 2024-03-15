@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>WESTHEP EXPRESS</title>
+  </head>
+  <body>
+    <header class="wrapper">
+      <div class="header__logo">
+        <h2>Westhep Express</h2>
+      </div>
+      <div class="header__links">
+        <a href="#">Складчины</a>
+        <a href="#">Доставка с Китая</a>
+        <a href="#">Цены</a>
+        <a href="#">Услуги</a>
+        <a href="#">О компании</a>
+      </div>
+      <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="#">Cкладчины</a></li>
+            <li><a href="#">Доставка с Китая</a></li>
+            <li><a href="#">Цены</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">О компании</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="menu-bg" id="menu-bg"></div>
+    </header>
+    <main>
+      <div class="main-promo wrapper">
+        <div class="main-promo__img">
+          <img src="/assets/images/main/main-img.jpg" alt="main-img" />
+        </div>
+        <div class="main-promo__text">
+          <h1>Мы делаем мир ближе!</h1>
+          <p>
+            надёжные закупки под ключ<br />
+            с доставкой из Китая в Ваш город
+          </p>
+          <button><a href="#">Бесплатная консультация</a></button>
+          <p>Позаботимся обо всём!</p>
+        </div>
+      </div>
+
+      <div class="main-about">
+        <div class="main-about__uniq">
+          <div class="main-about__uniq-icon">
+            <img src="/assets/images/icons/success.png" alt="pic" />
+          </div>
+          <div class="main-about__uniq-item">
+            <div class="main-about__uniq-item-1">
+              <p>Целая команда</p>
+              <img src="/assets/images/icons/line.svg" alt="line" />
+            </div>
+            <div class="main-about__uniq-item-2">
+              <p>Доставка</p>
+              <img src="/assets/images/icons/line.svg" alt="line" />
+            </div>
+            <div class="main-about__uniq-item-3">
+              <p>Упаковка</p>
+              <img src="/assets/images/icons/line.svg" alt="line" />
+            </div>
+            <div class="main-about__uniq-item-4">
+              <p>Вместе</p>
+            </div>
+          </div>
+        </div>
+        <div class="main-about__advantages">
+          <h3>Почему именно мы?</h3>
+          <div class="main-about__advantages-text">
+            <p>
+              Целая команда работников в Китае, которые найдут, поторгуются,
+              закажут, примут на складе, проверят, упакуют, отправят нужный
+              товар под Ваш запрос
+            </p>
+            <p>Партнерство с компанией по грузу-перевозкам</p>
+            <p>
+              Склад в Москве, где по Вашим запросам команда упакует товары и
+              отправит Вам или на маркетплейсы
+            </p>
+            <p>Помощь, поддержка и обратная связь на любом этапе</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-oreder wrapper">
+        <div class="main-order__title">
+          <h3>Заказать товары под Ваши цели и запросы</h3>
+        </div>
+        <div class="main-order__container-1">
+          <div class="main-order__container-1-item-1">
+            <div class="main-order__container-1-item-1-text">
+              <p>Малое, среднее или крупное предприятие</p>
+            </div>
+            <div class="main-order__container-1-item-1-image">
+              <img src="/assets/images/cards/pic1.png" alt="car" />
+            </div>
+          </div>
+
+          <div class="main-order__container-1-item-2">
+            <div class="main-order__container-1-item-2-text">
+              <p>Продавец на маркетплейсах</p>
+            </div>
+
+            <div class="main-order__container-1-item-2-image">
+              <img
+                class="image-2-1"
+                src="/assets/images/cards/pic2.png"
+                alt="lamp"
+              />
+              <img
+                class="image-2-2"
+                src="/assets/images/cards/pic3.png"
+                alt="jewelery"
+              />
+              <img
+                class="image-2-3"
+                src="/assets/images/cards/pic4.png"
+                alt="termos"
+              />
+            </div>
+          </div>
+
+          <div class="main-order__container-1-item-3">
+            <div class="main-order__container-1-item-3-text">
+              <p>Супермаркеты</p>
+            </div>
+
+            <div class="main-order__container-1-item-3-image">
+              <img
+                class="image-3-1"
+                src="/assets/images/cards/pic5.png"
+                alt="flower"
+              />
+              <img
+                class="image-3-2"
+                src="/assets/images/cards/pic6.png"
+                alt="citchenitems"
+              />
+              <img
+                class="image-3-3"
+                src="/assets/images/cards/pic7.png"
+                alt="blocknote"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="main-order__container-2">
+          <div class="main-order__container-2-item-4">
+            <div class="main-order__container-2-item-4-text">
+              <p>Интернет-магазины</p>
+            </div>
+            <div class="main-order__container-2-item-4-image">
+              <img src="/assets/images/cards/pic8.png" alt="sneakers-nike" />
+            </div>
+          </div>
+
+          <div class="main-order__container-2-item-5">
+            <div class="main-order__container-2-item-5-text">
+              <p>Розничные и оптовые магазины</p>
+            </div>
+            <div class="main-order__container-2-item-5-image">
+              <img src="/assets/images/cards/pic9.png" alt="duck" />
+            </div>
+          </div>
+
+          <div class="main-order__container-2-item-6">
+            <div class="main-order__container-2-item-6-text">
+              <p>
+                Собственный бренд - найдем фабрики для разработки вашей
+                продукцией с логотипом
+              </p>
+            </div>
+            <div class="main-order__container-2-item-6-image">
+              <div class="main-order__container-2-item-6-image-1">
+                <img src="/assets/images/cards/pic10.png" alt="coat" />
+              </div>
+              <div class="main-order__container-2-item-6-image-2">
+                <img src="/assets/images/cards/pic11.png" alt="bag" />
+              </div>
+              <div class="main-order__container-2-item-6-image-3">
+                <img src="/assets/images/cards/pic12.png" alt="pen" />
+              </div>
+              <div class="main-order__container-2-item-6-image-4">
+                <img src="/assets/images/cards/pic13.png" alt="bag" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-advantages">
+        <div class="main-advantages__container">
+          <div class="main-advantages__container-title color">
+            <h3>Поиск и выбор товара</h3>
+          </div>
+
+          <div class="main-advantages__container-desk">
+            <div class="main-advantages__container-desk-numbers color">
+              <div class="main-advantages__container-desk-numbers-circle">
+                1
+              </div>
+              <div class="main-advantages__container-desk-numbers-text">
+                шаг
+              </div>
+              <div class="main-advantages__container-desk-numbers-line">
+                <img src="/assets/images/icons/line.svg" alt="line" />
+              </div>
+
+              <div class="main-advantages__container-desk-numbers-circle">
+                2
+              </div>
+              <div class="main-advantages__container-desk-numbers-text">
+                шаг
+              </div>
+              <div class="main-advantages__container-desk-numbers-line">
+                <img src="/assets/images/icons/line.svg" alt="line" />
+              </div>
+
+              <div class="main-advantages__container-desk-numbers-circle">
+                3
+              </div>
+              <div class="main-advantages__container-desk-numbers-text">
+                шаг
+              </div>
+              <div class="main-advantages__container-desk-numbers-line">
+                <img src="/assets/images/icons/line.svg" alt="line" />
+              </div>
+
+              <div class="main-advantages__container-desk-numbers-circle">
+                4
+              </div>
+              <div class="main-advantages__container-desk-numbers-text">
+                шаг
+              </div>
+            </div>
+
+            <div class="main-advantages__container-desk-text">
+              <div class="main-advantages__container-desk-text1">
+                <p>
+                  Отправляете запрос<br /><span class="color"
+                    >(какой товар хотите найти/сделать/заказать)</span
+                  >
+                </p>
+              </div>
+              <div class="main-advantages__container-desk-text2">
+                <p>
+                  Связываемся с Вами для обсуждения заказа и выбора наиболее
+                  подходящих Вам условий<span class="color"
+                    >(уточняем все детали, отвечаем на все вопросы, оформляем
+                    заказ под ключ)</span
+                  >
+                </p>
+              </div>
+              <div class="main-advantages__container-desk-text3">
+                <p>
+                  Команда в Китае ищет товар и разных поставщиков, чтобы
+                  сравнить цены и получить лучшую<span class="color"
+                    >(наши работники не просто ищут товар на сайтах, а ездят по
+                    производствам, проверяют товар, торгуются за лучшую
+                    цену)</span
+                  >
+                </p>
+              </div>
+              <div class="main-advantages__container-desk-text4">
+                <p>
+                  Отправляем Вам фото и характеристики товара, а так же расчет
+                  по товару<span class="color"
+                    >(вы уже решаете, если товар выгоден для вас и вашего
+                    бизнеса или поискать другой)</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-advantages__container">
+          <div class="main-advantages__container-title color">
+            <h3>От покупки товара до доставки</h3>
+          </div>
+
+          <div class="main-advantages__container-desk">
+            <div class="main-advantages__container-desk-numbers color">
+              <div class="main-advantages__container-desk-numbers-circle">
+                1
+              </div>
+              <div class="main-advantages__container-desk-numbers-text">
+                шаг
+              </div>
+              <div class="main-advantages__container-desk-numbers-line">
+                <img src="/assets/images/icons/line.svg" alt="line" />
+              </div>
+
+              <div class="main-advantages__container-desk-numbers-circle">
+                2
+              </div>
+              <div class="main-advantages__container-desk-numbers-text">
+                шаг
+              </div>
+              <div class="main-advantages__container-desk-numbers-line">
+                <img src="/assets/images/icons/line.svg" alt="line" />
+              </div>
+
+              <div class="main-advantages__container-desk-numbers-circle">
+                3
+              </div>
+              <div class="main-advantages__container-desk-numbers-text">
+                шаг
+              </div>
+              <div class="main-advantages__container-desk-numbers-line">
+                <img src="/assets/images/icons/line.svg" alt="line" />
+              </div>
+
+              <div class="main-advantages__container-desk-numbers-circle">
+                4
+              </div>
+              <div class="main-advantages__container-desk-numbers-text">
+                шаг
+              </div>
+            </div>
+            <div class="main-advantages__container-desk-text">
+              <div class="main-advantages__container-desk-text1">
+                <p>
+                  После покупки товара принимаем его на складе в Китае<span
+                    class="color"
+                    >(товар проверяется на брак и соответствие
+                    цвету/модели/размеру)</span
+                  >
+                </p>
+              </div>
+              <div class="main-advantages__container-desk-text2">
+                <p>
+                  Выбираем наиболее подходящий способ доставки<span
+                    class="color"
+                    >(авто, самолет, ж/д, контейнер по морю)</span
+                  >
+                </p>
+              </div>
+              <div class="main-advantages__container-desk-text3">
+                <p>
+                  Выставление счета за доставку, можно оплатить сразу или по
+                  прибытии товара в РФ.<span class="color"
+                    >(Стоимость товара - в юанях, а стоимость доставки - в
+                    долларах, в день оплаты считается стоимость по актуальному
+                    курсу валюты)</span
+                  >
+                </p>
+              </div>
+              <div class="main-advantages__container-desk-text4">
+                <p>
+                  Получаем товар в Москве, отправляем вам.<span class="color"
+                    >(если вы живете в Москве, то договариваемся о времени  и
+                    месте встречи, если в другом городе - отправляем Вам
+                    доставкой)</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-company wrapper">
+        <div class="main-company__title">
+          <p>
+            <span class="red-title">Westhep express</span> - про надёжность,
+            качество и удобство
+          </p>
+        </div>
+        <div class="main-company__container-1">
+          <img src="/assets/images/about/delivery.jpg" alt="container" />
+          <p>
+            Китай – страна, за которой давно и прочно закрепился статус
+            индустриального гиганта. Ежегодно китайская промышленность выпускает
+            множество товаров народного потребления от зубочисток до
+            автомобилей, продавая их оптом не просто по низкой цене, а очень
+            дешево.<br /><br />Разнообразие товаров китайского производства и
+            выгодная ценовая политика – это те два фактора, которые делают
+            оптовую закупку продукции в Китае и ее розничную продажу в России
+            привлекательным бизнесом. Вот только незнание языка, китайских
+            законов, отсутствие доверенных лиц в Китае для многих являются
+            камнем преткновения.<br /><br />Наша компания «WESTHEP EXPRESS»
+            возьмет на себя решение всех этих и других вопросов, касающихся
+            заказа товаров в Китае. Ваша задача будет сводиться лишь к тому,
+            чтобы выбирать товар, продавать его в России и считать собственную
+            прибыль.
+          </p>
+        </div>
+      </div>
+
+      <div class="main-form wrapper">
+        <div class="main-form__title">
+          <h3>Оставляйте Ваши запросы, предложения и мы с свяжемся с Вами!</h3>
+        </div>
+        <div class="main-form__container">
+          <form class="main-form__container-inputs">
+            <input
+              class="main-form__container-inputs-name"
+              type="text"
+              placeholder="Ваше имя"
+            />
+            <input
+              class="main-form__container-inputs-number"
+              type="tel"
+              placeholder="Номер телефона"
+            />
+            <textarea
+              class="main-form__container-inputs-text"
+              name="content"
+              id="content"
+              cols="30"
+              rows="10"
+              placeholder="Запрос"
+            ></textarea>
+            <button class="main-form__container-inputs-btn" type="submit">
+              Получить ответы
+            </button>
+          </form>
+
+          <div class="main-form__container-img">
+            <img src="/assets/images/form/form.png" alt="container" />
+          </div>
+        </div>
+      </div>
+
+      <div class="main-comp">
+        <div class="main-comp__title">
+          <button class="main-comp__title-btn">Перейти к складчинам</button>
+        </div>
+        <div class="main-comp__container">
+          <div class="main-comp__container-item">
+            <img src="/assets/images/icons/pic1.svg" alt="pic1" />
+          </div>
+          <div class="main-comp__container-item">
+            <img src="/assets/images/icons/pic2.svg" alt="pic2" />
+          </div>
+          <div class="main-comp__container-item">
+            <img src="/assets/images/icons/pic3.svg" alt="pic3" />
+          </div>
+          <div class="main-comp__container-item">
+            <img src="/assets/images/icons/pic4.svg" alt="pic4" />
+          </div>
+          <div class="main-comp__container-item">
+            <img src="/assets/images/icons/pic5.svg" alt="pic5" />
+          </div>
+        </div>
+      </div>
+
+      <div class="main-china wrapper">
+        <div class="main-china__text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+            obcaecati odio perferendis quasi ullam placeat ipsam expedita est
+            esse, culpa, exercitationem voluptatibus recusandae sed. Quas nihil
+            autem sit suscipit Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Voluptatum repellendus vero obcaecati alias,
+            tempora perspiciatis quas similique saepe, accusamus dicta rerum quo
+            iure vitae laboriosam, voluptatem veritatis iusto eum ipsum!
+          </p>
+        </div>
+        <div class="main-china__img">
+          <img src="/assets/images/main/china.jpg" alt="china" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer__logo">
+        <h2>Westhep express</h2>
+      </div>
+      <div class="footer__links">
+        <a href="#">телеграм</a>
+        <a href="#">whatsapp</a>
+        <a href="#">почта</a>
+      </div>
+    </footer>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

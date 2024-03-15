@@ -1,0 +1,46 @@
+.red-title {
+  color: $red-title-buttons;
+  font-family: "Inter-bold", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.275em;
+}
+.main-company {
+  &__title {
+    text-align: center;
+  }
+  &__container-1 {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+    img {
+      width: 530px;
+      height: 350px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .red-title {
+    color: $red-title-buttons;
+    font-family: "Inter-bold", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.275em;
+  }
+  .main-company {
+    &__title {
+      text-align: center;
+    }
+    &__container-1 {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+
+      img {
+        width: 70%;
+        height: auto;
+      }
+    }
+  }
+}

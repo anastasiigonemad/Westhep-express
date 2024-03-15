@@ -1,0 +1,31 @@
+.main-promo {
+  &__img {
+    img {
+      width: 100%;
+      height: 435px;
+      border-radius: 20px;
+    }
+  }
+  &__text {
+    margin-top: -430px;
+    padding: 30px;
+    p {
+      font-family: "Verdana", sans-serif;
+    }
+    button {
+      background: rgb(255, 112, 92);
+      background: radial-gradient(
+        circle,
+        rgba(255, 112, 92, 1) 0%,
+        rgba(230, 48, 42, 1) 100%
+      );
+      border: none;
+      padding: 8px;
+      width: 200px;
+      border-radius: 50px;
+    }
+    a {
+      color: $main-text-1;
+    }
+  }
+}

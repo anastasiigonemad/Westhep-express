@@ -1,0 +1,16 @@
+.main-china {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+
+  &__text {
+    width: 500px;
+  }
+
+  &__img {
+    img {
+      width: 100%;
+    }
+  }
+}

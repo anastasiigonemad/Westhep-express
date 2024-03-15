@@ -1,0 +1,94 @@
+.main-comp {
+  margin-top: 250px;
+  &__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    &-btn {
+      padding: 10px;
+      font-family: "Inter-bold", sans-serif;
+      border: none;
+      border-radius: 10px;
+      width: 300px;
+      color: $main-text-1;
+      box-shadow: inset -1px 3px 6px 1px rgba(0, 0, 0, 0.3);
+      background: rgb(6, 143, 121);
+      background: linear-gradient(
+        90deg,
+        rgba(6, 143, 121, 1) 0%,
+        rgba(54, 217, 191, 1) 100%
+      );
+    }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    background-color: $main-background;
+    height: 400px;
+
+    &-item {
+      height: 200px;
+      padding: 30px;
+      margin-top: 100px;
+      border-radius: 100px 100px 0 0;
+      border-left: 1px solid $light-green-text;
+      border-top: 1px solid $light-green-text;
+      border-right: 1px solid $light-green-text;
+      box-shadow: inset 0px 3px 4px -1px rgba(6, 70, 57, 0.3);
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .main-comp {
+    margin-top: 250px;
+    &__title {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+
+      &-btn {
+        padding: 10px;
+        font-family: "Inter-bold", sans-serif;
+        border: none;
+        border-radius: 10px;
+        width: 300px;
+        color: $main-text-1;
+        box-shadow: inset -1px 3px 6px 1px rgba(0, 0, 0, 0.3);
+        background: rgb(6, 143, 121);
+        background: linear-gradient(
+          90deg,
+          rgba(6, 143, 121, 1) 0%,
+          rgba(54, 217, 191, 1) 100%
+        );
+      }
+    }
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0;
+      background-color: $main-background;
+      height: auto;
+
+      &-item {
+        height: 60px;
+        padding: 30px;
+        margin-top: 100px;
+        border-radius: 100px 100px 0 0;
+        border-left: 1px solid $light-green-text;
+        border-top: 1px solid $light-green-text;
+        border-right: 1px solid $light-green-text;
+        box-shadow: inset 0px 3px 4px -1px rgba(6, 70, 57, 0.3);
+      }
+
+      &-item:last-child {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

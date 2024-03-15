@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header__logo {
+    h2 {
+      text-transform: uppercase;
+      color: $red-title-buttons;
+    }
+  }
+
+  .header__links {
+    display: flex;
+    gap: 10px;
+
+    a {
+      width: 130px;
+      text-align: center;
+      word-spacing: 2px;
+      color: $main-text-1;
+      padding: 10px;
+      background-color: $red-button;
+      border-radius: 50px;
+    }
+  }
+}
+
+#menu {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    .header__logo {
+      visibility: hidden;
+    }
+    .header__links {
+      display: none;
+    }
+  }
+}
